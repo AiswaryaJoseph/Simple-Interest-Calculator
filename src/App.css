@@ -1,38 +1,63 @@
-.App {
+.App-header{
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: black;
+  /* margin:30px; */
+  width:100%;
+  height:700px;
+  color:white
+}
+.container{
+  background-color: black;
+  color:white;
+  width:500px;
+  /* height:500px; */
+  border-radius: 20px;
+  /* padding: 50px; */
+}
+.head{
+  font-size: 15px;
+  font-weight: 300;
+  font-family:cursive;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+  width:500px;
+  height:150px;
+  background-color: rgb(63, 86, 220);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.symbol{
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  color:white
+}
+#para{
+  text-align: center;
+  color:white;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  color:white
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#outlined-basic{
+  background-color: white;
 }
